@@ -1,4 +1,4 @@
-# # Biblioteca
+# Biblioteca
 
 Este é um projeto de estudo de uma aplicação de biblioteca utilizando Django.
 
