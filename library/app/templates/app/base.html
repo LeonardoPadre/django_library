@@ -1,0 +1,18 @@
+{% load static %}
+
+<head>
+    <link rel="stylesheet" href="{% static 'app/css/base.css' %}">
+</head>
+
+<div class="overlay"></div> <!-- Camada de cor à frente da imagem de fundo -->
+<div class="navbar">
+    <div class="brand">
+        <a href="#home">Library</a>
+    </div>
+    <div class="links">
+        <a href="#login">Login</a>
+        <button class="register-btn">Register</button>
+    </div>
+</div>
+
+{% block content %}{% endblock content %}
